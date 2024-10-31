@@ -1,0 +1,35 @@
+.add-mission {
+    min-height: 200px;
+    width: 100%;
+    background-color: green;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-mission form{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+    padding: 15px 0px;
+}
+
+.add-mission form .elements {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 0px;
+}
+
+.add-mission form button{
+    width: 10%;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

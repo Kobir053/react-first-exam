@@ -1,0 +1,6 @@
+.mission-grid{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 7px;
+}

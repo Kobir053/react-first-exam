@@ -1,0 +1,47 @@
+.mission-card {
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: orange; */
+    border-radius: 4px;
+    padding: 10px 5px;
+    color: white;
+}
+
+.mission-card .info{
+    width: 40%;
+    height: 100%;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mission-card .buttons-div {
+    width: 30%;
+    height: 100%;
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mission-card .buttons-div .delete{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mission-card .buttons-div .progress{
+    background-color: rgba(20, 237, 20, 0.718);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
