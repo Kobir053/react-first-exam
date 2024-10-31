@@ -38,7 +38,7 @@ const MissionCard: React.FC<MissionCardProps> = ({ mission, deleteTheMission, up
         </div>
         <div className='buttons-div'>
             <button className='delete' onClick={deleteTheMission}>Delete</button>
-            <button className='progress' onClick={updateMission}>Progress</button>
+            <button className='progress' onClick={updateMission} style={{visibility: mission.status == "Completed"? "hidden": "visible"}} disabled={mission.status == "Completed"}>Progress</button>
         </div>
     </div>
   )
